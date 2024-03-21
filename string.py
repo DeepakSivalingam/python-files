@@ -47,3 +47,4 @@ print(example[-2:-1])
 print(example[-3:-1])
 print(example[:-1])
 print(example[::-1]) #for reversing the string 
+
