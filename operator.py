@@ -74,3 +74,29 @@ print(a<<2)
 print(a>>2)
 
 
+#identity operator
+# is 
+# is not 
+
+a=12
+b=12
+if a is b:
+    print("same ")
+else:
+    print("different ")
+
+
+
+if a is not b:
+    print("different")
+else:
+    print("same ")
+
+#membership operator 
+
+example="string "
+print('s' in example)
+
+list=[2,0.5,'helo']
+print(5 in list)
+print(5 not  in list)
