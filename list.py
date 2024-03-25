@@ -65,8 +65,10 @@ print(y)
 y.sort(reverse=True)  # to sort the list in descending order 
 print(y)
 
+
 #list constructor
 print(list(range(5)))
 print(list("hello "))
+
 
 
