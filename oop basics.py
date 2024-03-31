@@ -1,7 +1,7 @@
 '''
-class--it is a blue print or a templated for crating a individual objects 
+class--it is a blue print or a templated for crating a individual objects ..methods and attributes
 object-- instances of class..consist of methods and property 
-
+object or instances
 '''
 
 # class atributes 
@@ -76,4 +76,58 @@ user_details.call()
 
 
 #instance methods 
+
+class user_details:
+    name="deepak"       
+    password="deepak2332"
+    
+    def call(self):   # here the self is the instance methods 
+        print("name :" ,user_details.name)
+        print("password :" ,user_details.password)
+        
+object=user_details()
+object.call()
+
+
+#  here we passing a arguements 
+
+class user_details:
+    name="deepak"       
+    password="deepak2332"
+    
+    def call(self,gender):   # here the self is the instance methods 0t 
+        print("name :" ,user_details.name)
+        print("password :" ,user_details.password)
+        print("gender: ",gender)
+        
+object=user_details()
+object.call("male")
+
+
+# __init__   function--constructor method
+# inbuilt function .. this function can be called when the object is created 
+# it is used for runtime initialaization for the instance variables 
+
+class init_function:
+    def __init__(self,name):
+        print("hiiii")
+        self.name= name   #instance variable or object variable  
+        
+    def call(self):
+        print("name : ",self.name)
+        
+o=init_function('deepak')
+o.call()
+
+o1=init_function('ram')
+o1.call()
+
+print(o.name)
+print(o1.name)
+
+
+#instance variable can be accesed by the object name 
+#class varibale can be accesed by the class name 
+
+
 
